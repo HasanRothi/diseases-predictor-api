@@ -21,7 +21,7 @@ mongoose.connect('mongodb+srv://rothi:diseases-predictor@cluster0.jxe3qys.mongod
     .then((s) => {
         console.log('db success')
     })
-app.use('/specalist', specalist)
+app.use('/specialist', specalist)
 app.use('/diseases', diseases)
 app.use('/symptom', symptom)
 app.use('/doctor', doctor)
